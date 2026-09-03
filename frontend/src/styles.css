@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+.conn-badge {
+  display: inline-block;
+  margin: 16px 0;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.conn-badge.on {
+  background: #14532d;
+  color: #86efac;
+}
+
+.conn-badge.off {
+  background: #451a03;
+  color: #fdba74;
+}
+
+.warning {
+  background: #422006;
+  border: 1px solid #b45309;
+  color: #fed7aa;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.warning code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.score-card {
+  background: #1e293b;
+  border: 2px solid;
+  border-radius: 16px;
+  padding: 32px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.score {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.score-label {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.chart-card {
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.chart-card h3 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.chart {
+  width: 100%;
+  height: 120px;
+}
+
+footer {
+  margin-top: 32px;
+  text-align: center;
+  color: #64748b;
+  font-size: 13px;
+}

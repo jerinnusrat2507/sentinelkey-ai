@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Node / Vite
+node_modules/
+frontend/dist/
+.vite/
+
+# Generated data & trained models (user-specific, shouldn't be committed)
+data/*.csv
+models/*.joblib
+
+# OS/editor
+.DS_Store
+.vscode/
+*.log
