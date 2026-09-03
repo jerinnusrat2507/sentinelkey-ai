@@ -13,8 +13,6 @@ dashboard. Hardware sensor fusion (ESP32 + motion data) and an
 explainability layer (SHAP-based per-signal attribution) are the next
 planned milestones — see [Roadmap](#-roadmap).
 
-> 📸 *Add a screenshot/GIF of the live dashboard here once you run it locally.*
-> `![dashboard](docs/screenshot.png)`
 
 ---
 
